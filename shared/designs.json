@@ -1,0 +1,98 @@
+[
+  {
+    "name": "הבסיס המשודרג",
+    "detail": "קלאסי ומאוזן",
+    "href": "../classic/landing.html",
+    "family": "classic"
+  },
+  {
+    "name": "מגזיני חם",
+    "detail": "עריכה מגזינית",
+    "href": "../classic/design-a.html",
+    "family": "classic"
+  },
+  {
+    "name": "גלריה לבנה",
+    "detail": "מינימליזם וצילומים",
+    "href": "../classic/design-b.html",
+    "family": "classic"
+  },
+  {
+    "name": "סטודיו אדריכלי",
+    "detail": "גיאומטריה מאופקת",
+    "href": "../classic/design-c.html",
+    "family": "classic"
+  },
+  {
+    "name": "נורדי רך",
+    "detail": "בהיר וטבעי",
+    "href": "../classic/design-d.html",
+    "family": "classic"
+  },
+  {
+    "name": "מונוכרום",
+    "detail": "שחור ולבן",
+    "href": "../classic/design-e.html",
+    "family": "classic"
+  },
+  {
+    "name": "אדמה וחומר",
+    "detail": "גוונים חמים",
+    "href": "../classic/design-f.html",
+    "family": "classic"
+  },
+  {
+    "name": "פורטפוליו פתוח",
+    "detail": "פרויקטים בפרונט",
+    "href": "../classic/design-g.html",
+    "family": "classic"
+  },
+  {
+    "name": "זן יפני",
+    "detail": "שקט ומדויק",
+    "href": "../classic/design-h.html",
+    "family": "classic"
+  },
+  {
+    "name": "ים־תיכוני",
+    "detail": "טקסטורות ואור",
+    "href": "../classic/design-i.html",
+    "family": "classic"
+  },
+  {
+    "name": "מגזין אמנותי",
+    "detail": "סיפור וקומפוזיציה",
+    "href": "../concept/editorial.html",
+    "family": "concept"
+  },
+  {
+    "name": "פורטפוליו קולנועי",
+    "detail": "דרמטי ומצולם",
+    "href": "../concept/cinematic.html",
+    "family": "concept"
+  },
+  {
+    "name": "סטודיו מדויק",
+    "detail": "גריד קפדני",
+    "href": "../concept/studio.html",
+    "family": "concept"
+  },
+  {
+    "name": "גלריה שקטה",
+    "detail": "ניווט צד מינימליסטי",
+    "href": "../modern/gallery.html",
+    "family": "modern"
+  },
+  {
+    "name": "אדריכלות דרמטית",
+    "detail": "כהה ואימרסיבי",
+    "href": "../modern/noir.html",
+    "family": "modern"
+  },
+  {
+    "name": "סטודיו חדש",
+    "detail": "טיפוגרפיה וגריד",
+    "href": "../modern/grid.html",
+    "family": "modern"
+  }
+]

@@ -1,0 +1,15 @@
+# VS Code local history
+.history/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+*.code-workspace
+
+# Logs
+*.log

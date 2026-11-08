@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pavelbk10.github.io/ester-interior-design/sitemap.xml
