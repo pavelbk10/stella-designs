@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="css/stella-subpages.css" />
 
 <link rel="stylesheet" href="../shared/switcher.css">
+<!-- stella-content:css:start -->
+<link rel="stylesheet" href="../shared/content.css">
+<!-- stella-content:css:end -->
 </head>
 <body class="page-landing">
 
@@ -33,7 +36,9 @@
       <span class="nav__logo-text">סטלה<small>עיצוב פנים</small></span>
     </a>
     <a href="#lead" class="btn btn--filled lp-bar__cta" data-cursor="hover">פגישת ייעוץ חינם</a>
-  </header>
+  <!-- stella-content:nav:start -->
+<nav class="sc-header-links" aria-label="תוכן והשראה"><a class="sc-nav-link" href="landing-articles.html">מאמרים</a><a class="sc-nav-link" href="#client-reviews">לקוחות ממליצים</a></nav>
+<!-- stella-content:nav:end --></header>
 
   <!-- ===== HERO ===== -->
   <section class="lp-hero">
@@ -98,21 +103,33 @@
     </div>
   </section>
 
-  <!-- ===== Testimonials ===== -->
-  <section class="lp-reviews">
-    <div class="section__head">
-      <p class="section__eyebrow reveal-up">מה אומרים עלינו</p>
-      <h2 class="section__title reveal-up">לקוחות מספרים</h2>
-    </div>
-    <div class="lp-reviews__grid">
-      <blockquote class="lp-review reveal-up"><p>“לקחו דירה רגילה והפכו אותה לבית שאנחנו מתרגשים לחזור אליו כל יום.”</p><cite>— משפחת לוי, תל אביב</cite></blockquote>
-      <blockquote class="lp-review reveal-up"><p>“מקצועיות, הקשבה ותוצאה מעל למה שדמיינו. ממליצים בחום!”</p><cite>— דנה ואורי, רעננה</cite></blockquote>
-      <blockquote class="lp-review reveal-up"><p>“הליווי הצמוד חסך לנו המון כסף וטעויות. שווה כל שקל.”</p><cite>— משפחת כהן, הרצליה</cite></blockquote>
-    </div>
-  </section>
-
   <!-- ===== Lead form ===== -->
-  <section class="lp-lead" id="lead">
+  <!-- stella-content:home:start -->
+<section class="sc-section sc-journal" data-content-design="1" id="design-journal" aria-labelledby="sc-journal-title">
+    <div class="sc-heading"><div><p class="sc-kicker">THE JOURNAL / השראה ומחשבות</p><h2 id="sc-journal-title">עוד מבט<br><em>על הבית.</em></h2></div><a class="sc-link" href="landing-articles.html">לכל המאמרים <span aria-hidden="true">↗</span></a></div>
+    <div class="sc-articles"><article class="sc-article" data-article-category="planning">
+    <div class="sc-image"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1100&q=80" alt="חלל מגורים מואר עם ריהוט טבעי" loading="lazy"><span class="sc-index">01</span></div>
+    <div class="sc-card-copy"><p class="sc-kicker">תכנון הבית</p><h3>בית יפה מתחיל בתכנון נכון</h3><p class="sc-summary">מה חשוב לבדוק לפני שבוחרים ספה, ואיך יוצרים חלל שעובד עם החיים שלכם.</p>
+
+    </div></article>
+<article class="sc-article" data-article-category="materials">
+    <div class="sc-image"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1100&q=80" alt="פינת מגורים בגווני אבן ועץ" loading="lazy"><span class="sc-index">02</span></div>
+    <div class="sc-card-copy"><p class="sc-kicker">חומרים וצבע</p><h3>החומרים שעושים את ההבדל</h3><p class="sc-summary">עץ, אבן וטקסטיל: חיבורים קטנים שמעניקים לבית עומק ואופי.</p>
+
+    </div></article>
+<article class="sc-article" data-article-category="lighting">
+    <div class="sc-image"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1100&q=80" alt="סלון מואר בגוונים רכים" loading="lazy"><span class="sc-index">03</span></div>
+    <div class="sc-card-copy"><p class="sc-kicker">אור ואווירה</p><h3>לתת לאור מקום בבית</h3><p class="sc-summary">בין תאורה טבעית לפינה אינטימית — מחשבות על בית שנעים להיות בו.</p>
+
+    </div></article></div></section>
+<section class="sc-section sc-reviews" data-content-design="1" id="client-reviews" aria-labelledby="sc-reviews-title">
+    <div class="sc-heading"><div><p class="sc-kicker">CLIENT STORIES / מילים מהבית</p><h2 id="sc-reviews-title">הבתים שלהם.<br><em>המילים שלהם.</em></h2></div><p class="sc-demo">המלצות לדוגמה · להמחשת העיצוב בלבד</p></div>
+    <div class="sc-quotes"><figure class="sc-quote"><span class="sc-quote-mark" aria-hidden="true">“</span><blockquote><p>מהפגישה הראשונה הרגשנו שמקשיבים לנו. כל בחירה התחברה לבית שרצינו לחיות בו.</p></blockquote><figcaption><span class="sc-avatar" aria-hidden="true">01</span><span><strong>משפחה לדוגמה א׳</strong><small>עיצוב דירה · תוכן לדוגמה</small></span></figcaption></figure>
+<figure class="sc-quote"><span class="sc-quote-mark" aria-hidden="true">“</span><blockquote><p>פתאום הכול התחבר — החומרים, האור והפרטים הקטנים. בית שנעים לחזור אליו.</p></blockquote><figcaption><span class="sc-avatar" aria-hidden="true">02</span><span><strong>משפחה לדוגמה ב׳</strong><small>הלבשת הבית · תוכן לדוגמה</small></span></figcaption></figure>
+<figure class="sc-quote"><span class="sc-quote-mark" aria-hidden="true">“</span><blockquote><p>התכנון עשה סדר והפך את הדרך להרבה יותר ברורה. התוצאה מרגישה בדיוק כמונו.</p></blockquote><figcaption><span class="sc-avatar" aria-hidden="true">03</span><span><strong>משפחה לדוגמה ג׳</strong><small>תכנון ושיפוץ · תוכן לדוגמה</small></span></figcaption></figure></div>
+    </section>
+<!-- stella-content:home:end -->
+<section class="lp-lead" id="lead">
     <div class="lp-lead__inner">
       <div class="lp-lead__text reveal-side-right">
         <p class="section__eyebrow">הצעד הראשון</p>
@@ -224,5 +241,8 @@
   <script src="js/main.js"></script>
 
 <script src="../shared/switcher.js" data-design="1"></script>
+<!-- stella-content:js:start -->
+<script src="../shared/content.js" defer></script>
+<!-- stella-content:js:end -->
 </body>
 </html>

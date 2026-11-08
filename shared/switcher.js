@@ -4,6 +4,9 @@ const script=document.currentScript;
 const active=Number(script && script.dataset.design || '1')-1;
 const designs=[{"name": "הבסיס המשודרג", "detail": "קלאסי ומאוזן", "href": "../classic/landing.html"}, {"name": "מגזיני חם", "detail": "עריכה מגזינית", "href": "../classic/design-a.html"}, {"name": "גלריה לבנה", "detail": "מינימליזם וצילומים", "href": "../classic/design-b.html"}, {"name": "סטודיו אדריכלי", "detail": "גיאומטריה מאופקת", "href": "../classic/design-c.html"}, {"name": "נורדי רך", "detail": "בהיר וטבעי", "href": "../classic/design-d.html"}, {"name": "מונוכרום", "detail": "שחור ולבן", "href": "../classic/design-e.html"}, {"name": "אדמה וחומר", "detail": "גוונים חמים", "href": "../classic/design-f.html"}, {"name": "פורטפוליו פתוח", "detail": "פרויקטים בפרונט", "href": "../classic/design-g.html"}, {"name": "זן יפני", "detail": "שקט ומדויק", "href": "../classic/design-h.html"}, {"name": "ים־תיכוני", "detail": "טקסטורות ואור", "href": "../classic/design-i.html"}, {"name": "מגזין אמנותי", "detail": "סיפור וקומפוזיציה", "href": "../concept/editorial.html"}, {"name": "פורטפוליו קולנועי", "detail": "דרמטי ומצולם", "href": "../concept/cinematic.html"}, {"name": "סטודיו מדויק", "detail": "גריד קפדני", "href": "../concept/studio.html"}, {"name": "גלריה שקטה", "detail": "ניווט צד מינימליסטי", "href": "../modern/gallery.html"}, {"name": "אדריכלות דרמטית", "detail": "כהה ואימרסיבי", "href": "../modern/noir.html"}, {"name": "סטודיו חדש", "detail": "טיפוגרפיה וגריד", "href": "../modern/grid.html"}];
 const prefix='../';
+if(location.pathname.endsWith('-articles.html')){
+ designs.forEach(design=>{design.href=design.href.replace('.html','-articles.html')});
+}
 function esc(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function init(){
  const bar=document.createElement('div');bar.id='stella-reviewbar';bar.setAttribute('role','navigation');bar.setAttribute('aria-label','מעבר בין עיצובים');
